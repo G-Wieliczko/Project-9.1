@@ -11,10 +11,10 @@ function getTriangleArea(a, h) {
 		return a*h/2;
 	}
 }
-	getTriangleArea (console.log( getTriangleArea(10,6) ));
+	console.log( getTriangleArea(10,6) );
 
 var triangle1Area = getTriangleArea(10, 15),
 	triangle2Area = getTriangleArea(22, 30),
 	triangle3Area = getTriangleArea(100, 15);
 
-	getTriangleArea (console.log( triangle1Area, triangle2Area, triangle3Area ));
+	console.log( triangle1Area, triangle2Area, triangle3Area );
